@@ -4,12 +4,12 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-label{
-    margin-bottom: 10px;
+label {
+  margin-bottom: 10px;
 }
 
-.styleForm{
-    height: 100vh;
+.styleForm {
+  height: 100vh;
 }
 
 .styleForm .container .form .col-6 .status .step {
@@ -27,13 +27,6 @@ label{
   color: #536387;
 }
 
-/* .styleForm .container .form .firstStepForm .row .inputStyle {
-  padding: 10px 15px;
-  width: 100%;
-  border-radius: 5px;
-  border: 0.5px solid gainsboro;
-  outline-color: #6a64f1;
-} */
 .inputStyle {
   padding: 10px 15px;
   width: 100%;
@@ -42,15 +35,55 @@ label{
   outline-color: #6a64f1;
 }
 
-.styleForm .container .form .firstStepForm .btn-nextStep{
-    padding: 8px 25px;
-    background-color: #6a64f1;
-    color: white;
-    text-decoration: none; 
-    border-radius: 8px;
-    border-color: transparent;
+.btn-nextStep {
+  padding: 8px 25px;
+  background-color: #6a64f1;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  border-color: transparent;
+}
+.buttonSubmit .btn-nextStep:hover {
+  color: white;
 }
 
-.textareaInput{
-    padding: 5px 10px;
+.textareaInput {
+  padding: 5px 10px;
+}
+
+.yesOrNoBtn .btnClick {
+  /* background-color: #6a64f1; */
+  border-radius: 8px;
+  padding: 8px 25px;
+  color: white;
+  justify-content: center;
+  /* border: 1px solid #536387; */
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.yesOrNoBtn .btnClick:hover {
+  background-color: #6a64f1;
+  transition: 1s;
+  cursor: pointer;
+}
+.yesOrNoBtn .btnClick:hover span{
+  color: white;
+}
+
+.yesOrNoBtn .btnClick span {
+  color: gray;
+}
+.yesOrNoBtn .circle {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  border: 1px solid #536387;
+}
+.yesOrNoBtn .btnClick:hover .circle{
+  border-color: transparent;
+}
+
+.yesOrNoBtn .circle i {
+  font-size: 12px;
 }
