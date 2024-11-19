@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+label{
+    margin-bottom: 10px;
+}
+
+.styleForm{
+    height: 100vh;
+}
+
+.styleForm .container .form .col-6 .status .step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styleForm .container .form .col-6 .status .step .number {
+  padding: 8px 16px;
+  border-radius: 50%;
+}
+
+.styleForm .container .form .col-6 .status .step span {
+  font-weight: 500;
+  color: #536387;
+}
+
+/* .styleForm .container .form .firstStepForm .row .inputStyle {
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 0.5px solid gainsboro;
+  outline-color: #6a64f1;
+} */
+.inputStyle {
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 0.5px solid gainsboro;
+  outline-color: #6a64f1;
+}
+
+.styleForm .container .form .firstStepForm .btn-nextStep{
+    padding: 8px 25px;
+    background-color: #6a64f1;
+    color: white;
+    text-decoration: none; 
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+.textareaInput{
+    padding: 5px 10px;
+}
