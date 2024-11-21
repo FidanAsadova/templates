@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#table {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4d3f6;
+}
+
+th,
+td,
+tr {
+  padding: 20px 80px 20px 30px;
+}
+
+tr {
+  background-color: #fff;
+}
+
+th {
+  background-color: #6c7ae0;
+  color: #fff;
+}
+
+table {
+  border-color: #c4d3f6;
+  border-collapse: collapse;
+}
+.trBorder {
+  border-bottom: 1px solid gainsboro;
+}
+
+.trHover:hover{
+    background-color: #d6dbe7;
+    cursor: pointer;
+}
